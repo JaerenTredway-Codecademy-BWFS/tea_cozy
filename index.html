@@ -9,55 +9,57 @@
   <body>
 <!--HEADER-->
     <header>
-      <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo">
-      <nav>
-        <a href="#">Mission</a>
-        <a href="#">Features Tea</a>
-        <a href="#">Locations</a>
+      <img class="logo" src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo">
+      <nav class="navigation">
+        <a href="#mission">Mission</a>
+        <a href="#products">Featured Tea</a>
+        <a href="#locations">Locations</a>
       </nav>
     </header>
 
-<!--MAIN SECTION-->
-  <!--MAIN IMAGE-->
+<!--ENTIRE MAIN SECTION-->
+  <!--MISSION-->
     <main>
-      <wrapper class="main-image">
+      <wrapper id="mission">
         <summary>
           <h2>Our Mission</h2>
           <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
         </summary>
       </wrapper>
   <!--PRODUCTS-->
-      <section class="products">
+      <section id="products">
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy?</h4>
+        <wrapper class="edibles_images">
+          <figure class="edible-item">
+            <img src="./resources/images/img-berryblitz.jpg" alt="Image of cup of berry tea">
+            <figcaption>Fall Berry Blitz Tea</figcaption>
+          </figure>
 
-        <figure class="edibles">
-          <img src="./resources/images/img-berryblitz.jpg" alt="Image of cup of berry tea">
-          <figcaption>Fall Berry Blitz Tea</figcaption>
-        </figure>
+          <figure class="edible-item">
+            <img src="./resources/images/img-spiced-rum.jpg" alt="Image of box of tea">
+            <figcaption>Spiced Rum Tea</figcaption>
+          </figure>
 
-        <figure class="edibles">
-          <img src="./resources/images/img-spiced-rum.jpg" alt="Image of box of tea">
-          <figcaption>Spiced Rum Tea</figcaption>
-        </figure>
+          <figure class="edible-item">
+            <img src="./resources/images/img-donut.jpg" alt="Image of donut">
+            <figcaption>Seasonal Donuts</figcaption>
+          </figure>
 
-        <figure class="edibles">
-          <img src="./resources/images/img-donut.jpg" alt="Image of donut">
-          <figcaption>Seasonal Donuts</figcaption>
-        </figure>
+          <figure class="edible-item">
+            <img src="./resources/images/img-myrtle-ave.jpg" alt="Image of cup of Myrtle tea">
+            <figcaption>Myrtle Ave Tea</figcaption>
+          </figure>
 
-        <figure class="edibles">
-          <img src="./resources/images/img-myrtle-ave.jpg" alt="Image of cup of Myrtle tea">
-          <figcaption>Myrtle Ave Tea</figcaption>
-        </figure>
-
-        <figure class="edibles">
-          <img src="./resources/images/img-bedford-bizarre.jpg" alt="Image of cup of Bedford tea">
-          <figcaption>Bedord Bizarre Tea</figcaption>
-        </figure>
+          <figure class="edible-item">
+            <img src="./resources/images/img-bedford-bizarre.jpg" alt="Image of cup of Bedford tea">
+            <figcaption>Bedford Bizarre Tea</figcaption>
+          </figure>
+        </wrapper>
       </section>
+
   <!--LOCATIONS-->
-      <section class="locations">
+      <section id="locations">
         <h2>Locations</h2>
         <div class="address">
           <h3>Downtown</h3>

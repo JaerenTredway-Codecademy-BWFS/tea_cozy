@@ -1,20 +1,130 @@
-background-image: url("../resources/images/img-mission-background.jpg");
-
-background-image: url("../resources/images/img-locations-background.jpg");
-
 /* UNIVERSAL STYLES */
+body {
+  font: 22px Helvetica, sans-serif;
+  color: Seashell;
+  background-color: Black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
 
+}
 
 /* HEADER */
+  header {
+    display: flex;
+    /* flex-flow: row wrap; */
+    position: fixed;
+    border-bottom: 1px solid Seashell;
+    align-items: center;
+    z-index: 1;
+    width: 1300px;
+    background-color: Black;
+    border: 1px solid red;
+  }
 
+  .logo {
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid red;
+  }
 
-/* MAIN IMAGE */
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 375px;
+    margin-left: auto;
+    border: 1px solid red;
+  }
 
+  .navigation a {
+    color: Seashell;
+    border: 1px solid red;
+  }
+
+/* ENTIRE MAIN SECTION */
+  main {
+    position: relative;
+    top: 70px;
+
+  }
+
+/* MISSION */
+#mission {
+  background-image: url("../resources/images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  width: 1200;
+  margin: 0 50px;
+  align-items: center;
+}
+
+#mission summary {
+  display: flex;
+  flex-flow: column;
+  background-color: black;
+
+}
+
+#mission summary h4 {
+
+}
 
 /* PRODUCTS */
+  #products {
+    display: flex;
+    width: 1000px;
+    margin: 0 100px;
+    flex-flow: column;
+    align-items: center;
 
+  }
+
+  .edibles_images {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    border: 1px solid red;
+  }
+
+  .edible-item {
+    height: 250px;
+    border: 1px solid red;
+  }
+
+  .edible-item img {
+    width: 300px;
+    height: 200px;
+  }
 
 /* LOCATIONS */
+#locations {
+  /*background-image: url("../resources/images/img-locations-background.jpg");*/
+  display: flex;
+  width: 1200px;
+  height: 500px;
+}
 
+#locations .address {
+
+  width: 300px;
+  height: 300px;
+
+}
 
 /* FOOTER */
+footer {
+  position: relative;
+  top: 100%;
+  display: flex;
+}
+
+footer .contact_info {
+
+}
+
+footer small {
+
+}
