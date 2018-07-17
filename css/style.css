@@ -56,27 +56,24 @@ body {
   background-repeat: no-repeat;
   display: flex;
   height: 700px;
-  width: 1200;
+  width: 1200px;
   margin: 0 50px;
   align-items: center;
+  border: 1px solid red;
 }
 
 #mission summary {
-  display: flex;
-  flex-flow: column;
   background-color: black;
-
-}
-
-#mission summary h4 {
-
+  flex: 1;
+  border: 1px solid red;
+  height: 130px;
 }
 
 /* PRODUCTS */
   #products {
     display: flex;
     width: 1000px;
-    margin: 0 100px;
+    margin: 0 150px;
     flex-flow: column;
     align-items: center;
 
